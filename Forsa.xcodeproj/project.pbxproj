@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3646D9DC2D04310F00556AAD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3646D9DB2D04310F00556AAD /* LoginViewController.swift */; };
+		367103972D04C18300855FCD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367103962D04C18300855FCD /* ProfileViewController.swift */; };
+		36FCBDB02D005EA7004B8789 /* Shaima.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FCBDAF2D005EA7004B8789 /* Shaima.storyboard */; };
+		36FCBDB42D023AB6004B8789 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FCBDB32D023AB6004B8789 /* SplashScreenViewController.swift */; };
+		36FCBDB62D02444A004B8789 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FCBDB52D02444A004B8789 /* CreateAccountViewController.swift */; };
 		8BA86E322D006139005B084C /* Maryam1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA86E312D006139005B084C /* Maryam1.storyboard */; };
-		ACCB8D5F2D09ACD2003935F5 /* Shaima.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCB8D5E2D09ACD2003935F5 /* Shaima.storyboard */; };
-		ACCB8D612D09ACD7003935F5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB8D602D09ACD7003935F5 /* ProfileViewController.swift */; };
-		ACCB8D632D09ACDC003935F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB8D622D09ACDC003935F5 /* LoginViewController.swift */; };
-		ACCB8D652D09ACE1003935F5 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB8D642D09ACE1003935F5 /* CreateAccountViewController.swift */; };
-		ACCB8D672D09AD1A003935F5 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB8D662D09AD1A003935F5 /* SplashScreenViewController.swift */; };
 		C33794962D00567300B1A5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794952D00567300B1A5C3 /* AppDelegate.swift */; };
 		C33794982D00567300B1A5C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794972D00567300B1A5C3 /* SceneDelegate.swift */; };
 		C337949A2D00567300B1A5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794992D00567300B1A5C3 /* ViewController.swift */; };
@@ -46,12 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3646D9DB2D04310F00556AAD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		367103962D04C18300855FCD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		36FCBDAF2D005EA7004B8789 /* Shaima.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shaima.storyboard; sourceTree = "<group>"; };
+		36FCBDB32D023AB6004B8789 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		36FCBDB52D02444A004B8789 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		3F39B91E2D05933D00165184 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8BA86E312D006139005B084C /* Maryam1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Maryam1.storyboard; sourceTree = "<group>"; };
-		ACCB8D5E2D09ACD2003935F5 /* Shaima.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Shaima.storyboard; sourceTree = "<group>"; };
-		ACCB8D602D09ACD7003935F5 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		ACCB8D622D09ACDC003935F5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		ACCB8D642D09ACE1003935F5 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
-		ACCB8D662D09AD1A003935F5 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 		C33794922D00567300B1A5C3 /* Forsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33794952D00567300B1A5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C33794972D00567300B1A5C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +97,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F39B9212D0595B200165184 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C33794892D00567300B1A5C3 = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +111,7 @@
 				C33794AB2D00567500B1A5C3 /* ForsaTests */,
 				C33794B52D00567500B1A5C3 /* ForsaUITests */,
 				C33794932D00567300B1A5C3 /* Products */,
-				D4CB08842D0589E600796CF8 /* Frameworks */,
+				3F39B9212D0595B200165184 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,13 +132,13 @@
 				C33794972D00567300B1A5C3 /* SceneDelegate.swift */,
 				C33794992D00567300B1A5C3 /* ViewController.swift */,
 				C337949B2D00567300B1A5C3 /* Main.storyboard */,
-				8BA86E312D006139005B084C /* Maryam1.storyboard */,
-				ACCB8D5E2D09ACD2003935F5 /* Shaima.storyboard */,
-				ACCB8D602D09ACD7003935F5 /* ProfileViewController.swift */,
-				ACCB8D622D09ACDC003935F5 /* LoginViewController.swift */,
-				ACCB8D642D09ACE1003935F5 /* CreateAccountViewController.swift */,
-				ACCB8D662D09AD1A003935F5 /* SplashScreenViewController.swift */,
+				36FCBDAF2D005EA7004B8789 /* Shaima.storyboard */,
+				367103962D04C18300855FCD /* ProfileViewController.swift */,
+				3646D9DB2D04310F00556AAD /* LoginViewController.swift */,
+				36FCBDB52D02444A004B8789 /* CreateAccountViewController.swift */,
 				C337949E2D00567500B1A5C3 /* Assets.xcassets */,
+				8BA86E312D006139005B084C /* Maryam1.storyboard */,
+				ACCB8D662D09AD1A003935F5 /* SplashScreenViewController.swift */,
 				C3B44F672D048C8500A2047D /* GoogleService-Info.plist */,
 				C33794A02D00567500B1A5C3 /* LaunchScreen.storyboard */,
 				C33794A32D00567500B1A5C3 /* Info.plist */,
@@ -304,11 +312,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCB8D632D09ACDC003935F5 /* LoginViewController.swift in Sources */,
-				ACCB8D612D09ACD7003935F5 /* ProfileViewController.swift in Sources */,
-				ACCB8D672D09AD1A003935F5 /* SplashScreenViewController.swift in Sources */,
+				3646D9DC2D04310F00556AAD /* LoginViewController.swift in Sources */,
+				36FCBDB62D02444A004B8789 /* CreateAccountViewController.swift in Sources */,
 				C337949A2D00567300B1A5C3 /* ViewController.swift in Sources */,
-				ACCB8D652D09ACE1003935F5 /* CreateAccountViewController.swift in Sources */,
 				C33794962D00567300B1A5C3 /* AppDelegate.swift in Sources */,
 				C33794982D00567300B1A5C3 /* SceneDelegate.swift in Sources */,
 			);

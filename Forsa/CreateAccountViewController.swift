@@ -1,4 +1,5 @@
 import UIKit
+import FirebaseAuth
 
 class CreateAccountViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
@@ -21,6 +22,9 @@ class CreateAccountViewController: UIViewController, UIImagePickerControllerDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Password text hidden
+        PasswordTextField?.isSecureTextEntry = true
+
     }
 
     @IBAction func SaveButtonTapped(_ sender: UIButton) {
