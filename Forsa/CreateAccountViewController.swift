@@ -24,6 +24,7 @@ class CreateAccountViewController: UIViewController, UIImagePickerControllerDele
         super.viewDidLoad()
         //Password text hidden
         PasswordTextField?.isSecureTextEntry = true
+
     }
 
     @IBAction func SaveButtonTapped(_ sender: UIButton) {
