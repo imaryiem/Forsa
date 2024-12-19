@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BA86E322D006139005B084C /* Maryam1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA86E312D006139005B084C /* Maryam1.storyboard */; };
+		ACCB8D5F2D09ACD2003935F5 /* Shaima.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCB8D5E2D09ACD2003935F5 /* Shaima.storyboard */; };
+		ACCB8D612D09ACD7003935F5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB8D602D09ACD7003935F5 /* ProfileViewController.swift */; };
+		ACCB8D632D09ACDC003935F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB8D622D09ACDC003935F5 /* LoginViewController.swift */; };
+		ACCB8D652D09ACE1003935F5 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB8D642D09ACE1003935F5 /* CreateAccountViewController.swift */; };
+		ACCB8D672D09AD1A003935F5 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB8D662D09AD1A003935F5 /* SplashScreenViewController.swift */; };
 		C33794962D00567300B1A5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794952D00567300B1A5C3 /* AppDelegate.swift */; };
 		C33794982D00567300B1A5C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794972D00567300B1A5C3 /* SceneDelegate.swift */; };
 		C337949A2D00567300B1A5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794992D00567300B1A5C3 /* ViewController.swift */; };
@@ -16,6 +22,10 @@
 		C33794AD2D00567500B1A5C3 /* ForsaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794AC2D00567500B1A5C3 /* ForsaTests.swift */; };
 		C33794B72D00567500B1A5C3 /* ForsaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794B62D00567500B1A5C3 /* ForsaUITests.swift */; };
 		C33794B92D00567500B1A5C3 /* ForsaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794B82D00567500B1A5C3 /* ForsaUITestsLaunchTests.swift */; };
+		C3B44F682D048C8500A2047D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3B44F672D048C8500A2047D /* GoogleService-Info.plist */; };
+		D4CB08862D0589E600796CF8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D4CB08852D0589E600796CF8 /* FirebaseAuth */; };
+		D4CB08882D0589E600796CF8 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = D4CB08872D0589E600796CF8 /* FirebaseCore */; };
+		D4CB088A2D0589E600796CF8 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D4CB08892D0589E600796CF8 /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BA86E312D006139005B084C /* Maryam1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Maryam1.storyboard; sourceTree = "<group>"; };
+		ACCB8D5E2D09ACD2003935F5 /* Shaima.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Shaima.storyboard; sourceTree = "<group>"; };
+		ACCB8D602D09ACD7003935F5 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ACCB8D622D09ACDC003935F5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ACCB8D642D09ACE1003935F5 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		ACCB8D662D09AD1A003935F5 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 		C33794922D00567300B1A5C3 /* Forsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33794952D00567300B1A5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C33794972D00567300B1A5C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,7 @@
 		C33794B22D00567500B1A5C3 /* ForsaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForsaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33794B62D00567500B1A5C3 /* ForsaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForsaUITests.swift; sourceTree = "<group>"; };
 		C33794B82D00567500B1A5C3 /* ForsaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForsaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3B44F672D048C8500A2047D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CB088A2D0589E600796CF8 /* FirebaseDatabase in Frameworks */,
+				D4CB08882D0589E600796CF8 /* FirebaseCore in Frameworks */,
+				D4CB08862D0589E600796CF8 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +103,7 @@
 				C33794AB2D00567500B1A5C3 /* ForsaTests */,
 				C33794B52D00567500B1A5C3 /* ForsaUITests */,
 				C33794932D00567300B1A5C3 /* Products */,
+				D4CB08842D0589E600796CF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +124,14 @@
 				C33794972D00567300B1A5C3 /* SceneDelegate.swift */,
 				C33794992D00567300B1A5C3 /* ViewController.swift */,
 				C337949B2D00567300B1A5C3 /* Main.storyboard */,
+				8BA86E312D006139005B084C /* Maryam1.storyboard */,
+				ACCB8D5E2D09ACD2003935F5 /* Shaima.storyboard */,
+				ACCB8D602D09ACD7003935F5 /* ProfileViewController.swift */,
+				ACCB8D622D09ACDC003935F5 /* LoginViewController.swift */,
+				ACCB8D642D09ACE1003935F5 /* CreateAccountViewController.swift */,
+				ACCB8D662D09AD1A003935F5 /* SplashScreenViewController.swift */,
 				C337949E2D00567500B1A5C3 /* Assets.xcassets */,
+				C3B44F672D048C8500A2047D /* GoogleService-Info.plist */,
 				C33794A02D00567500B1A5C3 /* LaunchScreen.storyboard */,
 				C33794A32D00567500B1A5C3 /* Info.plist */,
 			);
@@ -127,6 +155,13 @@
 			path = ForsaUITests;
 			sourceTree = "<group>";
 		};
+		D4CB08842D0589E600796CF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +178,11 @@
 			dependencies = (
 			);
 			name = Forsa;
+			packageProductDependencies = (
+				D4CB08852D0589E600796CF8 /* FirebaseAuth */,
+				D4CB08872D0589E600796CF8 /* FirebaseCore */,
+				D4CB08892D0589E600796CF8 /* FirebaseDatabase */,
+			);
 			productName = Forsa;
 			productReference = C33794922D00567300B1A5C3 /* Forsa.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +255,9 @@
 				Base,
 			);
 			mainGroup = C33794892D00567300B1A5C3;
+			packageReferences = (
+				C3B44F692D048D8500A2047D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C33794932D00567300B1A5C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C33794A22D00567500B1A5C3 /* LaunchScreen.storyboard in Resources */,
+				8BA86E322D006139005B084C /* Maryam1.storyboard in Resources */,
+				C3B44F682D048C8500A2047D /* GoogleService-Info.plist in Resources */,
 				C337949F2D00567500B1A5C3 /* Assets.xcassets in Resources */,
 				C337949D2D00567300B1A5C3 /* Main.storyboard in Resources */,
+				ACCB8D5F2D09ACD2003935F5 /* Shaima.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCB8D632D09ACDC003935F5 /* LoginViewController.swift in Sources */,
+				ACCB8D612D09ACD7003935F5 /* ProfileViewController.swift in Sources */,
+				ACCB8D672D09AD1A003935F5 /* SplashScreenViewController.swift in Sources */,
 				C337949A2D00567300B1A5C3 /* ViewController.swift in Sources */,
+				ACCB8D652D09ACE1003935F5 /* CreateAccountViewController.swift in Sources */,
 				C33794962D00567300B1A5C3 /* AppDelegate.swift in Sources */,
 				C33794982D00567300B1A5C3 /* SceneDelegate.swift in Sources */,
 			);
@@ -601,6 +651,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3B44F692D048D8500A2047D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D4CB08852D0589E600796CF8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3B44F692D048D8500A2047D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D4CB08872D0589E600796CF8 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3B44F692D048D8500A2047D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		D4CB08892D0589E600796CF8 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3B44F692D048D8500A2047D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C337948A2D00567300B1A5C3 /* Project object */;
 }
